@@ -5,8 +5,6 @@ takes a lot of time to read the original text due to all the extra characters
 
 Telugu - 
 Same as Nepali but more problems
-Can't split with '.' because apparently all characters have "." and splitting gives a list of empty strings with len = len of all characters
-Can't split with '?' either because python thinks we are trying to split using NULL
-(error: nothing to repeat at position 0)
+Does not work with re.split() function since it gives empty string for some reason
 Need to add stopwords manually
 has some encoding issues ('\u200c' for a few characters)
