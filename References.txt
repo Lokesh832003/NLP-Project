@@ -4,3 +4,4 @@ https://github.com/nirupampratap/lda_te
 https://github.com/Xangis/extra-stopwordss
 https://newspaper.readthedocs.io/en/latest/user_guide/advanced.html#adding-new-languages
 https://github.com/codelucas/newspaper/blob/master/newspaper/extractors.py#L668
+https://www.askpython.com/python/examples/tf-idf-model-from-scratch
