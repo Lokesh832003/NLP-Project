@@ -1,4 +1,4 @@
-This project aims to summarize any given Nepali text of any size by making use of TF_IDF matrix or Term Frequency and Inverse Document Frequency matrix. The project was originally meant to use the same methodoly to create a Telugu summarizer, however, that approach failed due to how the Telugu language is encoded.
+This project aims to summarize any given Nepali text of any size by making use of TF_IDF matrix i.e. Term Frequency and Inverse Document Frequency matrix. The project was originally meant to use the same methodology to create a Telugu summarizer, however, that approach failed due to how the Telugu language is encoded.
 
 The procedure is as follows-
 1. The text file containing the Nepali text is taken as input. All of the \n or newline characters are converted to spaces for easier text processing
