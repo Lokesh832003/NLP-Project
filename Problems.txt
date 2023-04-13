@@ -1,6 +1,7 @@
 Nepali - 
 has to use specific encoding
 unrealiable for smaller texts because it can sometimes do no summarization at all, if text is small
+takes a lot of time to read the original text due to all the extra characters
 
 Telugu - 
 Same as Nepali but more problems
