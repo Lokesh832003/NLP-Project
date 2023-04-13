@@ -1,7 +1,7 @@
 https://github.com/himalayan-sanjeev/Nepali_Text_Summarization_Extractive#readme
 https://medium.com/@nirupampratap/topic-modeling-using-lda-on-telugu-%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%97%E0%B1%81-articles-a31e367ca229
 https://github.com/nirupampratap/lda_te
-https://github.com/Xangis/extra-stopwordss
+https://github.com/Xangis/extra-stopwords
 https://newspaper.readthedocs.io/en/latest/user_guide/advanced.html#adding-new-languages
 https://github.com/codelucas/newspaper/blob/master/newspaper/extractors.py#L668
 https://www.askpython.com/python/examples/tf-idf-model-from-scratch
