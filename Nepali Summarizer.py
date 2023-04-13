@@ -118,7 +118,7 @@ for i in estimated_scores:
 #    sumValues += sentence_scores[i]
 
 
-# Taking half of the max score as threshold
+# Taking 40% of the max score as threshold
 threshold = max_score*0.4
 #print("Threshold is - " ,threshold)
     
