@@ -1,0 +1,11 @@
+Nepali - 
+has to use specific encoding
+unrealiable for smaller texts because it can sometimes do no summarization at all, if text is small
+
+Telugu - 
+Same as Nepali but more problems
+Can't split with '.' because apparently all characters have "." and splitting gives a list of empty strings with len = len of all characters
+Can't split with '?' either because python thinks we are trying to split using NULL
+(error: nothing to repeat at position 0)
+Need to add stopwords manually
+has some encoding issues ('\u200c' for a few characters)
