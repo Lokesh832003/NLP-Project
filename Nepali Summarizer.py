@@ -121,13 +121,16 @@ for i in estimated_scores:
 # Taking 40% of the max score as threshold
 threshold = max_score*0.4
 #print("Threshold is - " ,threshold)
-    
-summary = []
 
+
+#Adding sentences to summary based on threshold    
+summary = []
 for i in sents:
     if i[:10] in sentence_scores and sentence_scores[i[:10]] >= (0.75*threshold):
         summary.append(i)
-
+        
+        
+#Separating sentences using | as a 
 summary = '।'.join(summary)
 
 print('\nSummarized Text = ',summary)
