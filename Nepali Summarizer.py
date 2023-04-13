@@ -104,7 +104,6 @@ for i, j in tf_idf_matrix.items():
         sentence_scores[i]=0
 #print(sentence_scores)
         
-
 estimated_scores = sentence_scores
 
 #Getting the max score of a sentence
@@ -130,7 +129,7 @@ for i in sents:
         summary.append(i)
         
         
-#Separating sentences using | as a 
+#Separating sentences using | 
 summary = '।'.join(summary)
 
 print('\nSummarized Text = ',summary)
