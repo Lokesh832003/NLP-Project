@@ -14,5 +14,4 @@ The procedure is as follows-
 11. The summary is joined using | to depict the end of a sentence
 
 Note:
-The length of both original text and the summarized text is given for comparison
-The threshold is modifiable 
+The length of both original text and the summarized text is given for comparison. The Threshold is modifiable 
