@@ -17,10 +17,7 @@ for i in file.read():
 print('Original Text = ', text)
 print('Original Text no. of words = ', len(text.split()))
 
-punctuation = ['.','?','!']
-
 sents=text.split('.') 
-#try '?' '. ' '.. ' '... ' as well
 
 len_sents = len(sents)
 
