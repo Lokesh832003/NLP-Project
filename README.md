@@ -1,7 +1,7 @@
-This project aims to summarize any given Nepali text of any size by making use of TF_IDF matrix i.e. Term Frequency and Inverse Document Frequency matrix. The project was originally meant to use the same methodology to create a Telugu summarizer, however, that approach failed due to how the Telugu language is encoded.
+This project aims to summarize any given Telugu text of any size by making use of TF_IDF matrix i.e. Term Frequency and Inverse Document Frequency matrix. The project was originally referenced from a Nepali Summarizer(https://github.com/himalayan-sanjeev/Nepali_Text_Summarization_Extractive#readme) which uses the same methodology to summarize Nepali text
 
 The procedure is as follows-
-1. The text file containing the Nepali text is taken as input. All of the \n or newline characters are converted to spaces for easier text processing
+1. The text file containing the Telugu text is taken as input. All of the \n or newline characters are converted to spaces for easier text processing
 2. The text is divided into sentences using | as a delimiter, and into words using space as a delimiter
 3. The frequency of all the words in a sentence is taken. This is achieved by creating a new dictionary, iterating through the sentences and using the first 10 characters of the sentence as the key for that specific sentence. Then the frequency for each word in that sentence is calculated by iterating through all the words in the sentence (stopwords are omitted). This is repeated for all sentences
 4. Term frequency of every word in a sentence is calculated by dividing the frequency of a word by the sentence's length. Term frequency is the measure of how often a word is repeated in a given sentence/document
